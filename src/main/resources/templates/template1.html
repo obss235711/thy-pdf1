@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf Minimal</title>
+    <my:inlinecss href="templates/css/main.css" />
+</head>
+<body>
+<h1>Hello, <span th:text="${name}">User</span>!</h1>
+<p>
+    <my:inlineimg src="${imageSrc}" />
+</p>
+</body>
+</html>
